@@ -1,0 +1,1493 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.top{
+  height: 10%; 
+  width: 100%; 
+  background-color: rgb(3, 3, 57);
+}
+.top-box{
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  display: flex;
+position: relative;
+left: 150px;
+top: 30px;
+border-radius: 6px;
+box-shadow: 10px 10px 10px black;
+}
+.top-box a{
+ margin: 18px;
+position: relative;
+left: 50%;
+font-weight: 900;
+}
+.top-box h2{
+  padding-left: 40px;
+  color: rgb(58, 55, 55);
+  padding-top: 8px;
+  font-size: 20px;
+}
+.top-box h1{
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: 30px;
+  color: rgb(58, 55, 55);
+}
+
+.bottom{
+    height: 90%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-image: url(b4.jpg);
+    background-size: cover;
+  background-position: center; 
+}
+.bottom-text p{
+color: white;
+font-weight: 900;
+font-size: 18px;
+padding-left: 140px;
+padding-top: 150px;
+}
+.bottom-text h1{
+  color: white;
+  font-weight: 900;
+  font-size: 75px;
+  padding-left: 130px;
+  padding-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .bottom-text button{
+  background-color: rgb(249, 178, 12);
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  box-shadow: 10px 10px 10px black;
+  color: white;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: black;
+  color: red;
+}
+/* ............................... Next Page ........................... */
+.main2{
+  height: 100%;
+  width: 100%;
+background-color: whitesmoke;
+  display: flex;
+}
+.left1{
+  height: 100%;
+  width: 50%;
+  /* background-color: aqua; */
+}
+.right1{
+  height: 100%;
+  width: 50%;
+  /* background-color: whitesmoke; */
+}
+.right1-text{
+  height: 70%;
+  width: 100%;
+  /* background-color: whitesmoke; */
+  /* margin-left: 30px; */
+  margin-top: 180px;
+}
+.right1-text h5{
+  font-size: 17px;
+  color: rgb(65, 63, 63);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.right1-text h1{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+.right1-text p{
+  color: rgb(65, 63, 63);
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+  line-height: 21px;
+}
+.right1-text button{
+  background-color: rgb(249, 178, 12);
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  box-shadow: 10px 10px 10px black;
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+button:hover{
+  background-color: black;
+  color: red;
+}
+.left1-photo{
+  height: 40%;
+  width: 80%;
+  /* background-color: red; */
+  margin: 10px;
+  display: flex;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.left1-text{
+  height: 100%;
+  width: 45%;
+  /* background-color: blue; */
+  box-shadow: 15px 15px 15px black;
+ margin-right: 40px;
+}
+.left1-text i{
+  color: orange;
+  font-size: 50px;
+  font-weight: 900;
+  padding-left: 100px;
+  padding-top: 80px;
+position: relative;
+top: 10%;
+}
+.left1-text h1{
+  font-size: 35px;
+  font-weight: 900;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+.left1-text p{
+  color: rgb(94, 91, 91);
+  padding-left: 40px;
+  padding-top: 20px;
+
+}
+.left1-photos{
+  height: 100%;
+  width: 55%;
+  /* background-color: rgb(18, 250, 6); */
+  background-image: url(b2.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 15px 15px 15px black;
+}
+.left1-photo2{
+  display: flex;
+  height: 40%;
+  width: 90%;
+  /* background-color: rgb(52, 51, 51); */
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.left1-photo2-text{
+  height: 100%;
+  width: 65%;
+  /* background-color: rgb(3, 3, 53); */
+  background-image: url(room1.jpg);
+  background-size: cover;
+  background-position: center;
+ margin-right: 50px;
+ box-shadow: 15px 15px 15px black;
+}
+.left1-photo2-photos{
+  height: 110%;
+  width: 45%;
+  background-color: rgb(12, 4, 70);
+  box-shadow: 15px 15px 15px black;
+  margin-right: 50px;
+}
+.left1-photo2-photos:hover{
+  background-color: black;
+}
+.left1-photo2-photos i{
+  font-size: 40px;
+  font-weight: 900;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+.left1-photo2-photos h1{
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 25%;
+  margin-left: 15%;
+}
+.left1-photo2-photos p{
+  color: white;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+/* ............................. 3rd page ....................................... */
+.main3{
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(171, 132, 132, 0.493); */
+}
+.main3-text{
+  height: 25%;
+  width: 100%;
+  /* background-color: rgba(228, 23, 23, 0.493); */
+}
+.main3-text p{
+  color: rgb(55, 52, 52);
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  position: relative;
+  top: 35%;
+}
+.main3-text h1{
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40%;
+}
+.main3-room{
+  height: 75%;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.main3-room1{
+  height: 65%;
+  width: 30%;
+  /* background-color: red; */
+  background-image: url(room2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  box-shadow: 10px 10px 10px black;
+}
+.main3-room1-text{
+  height: 28%;
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 5%;
+  margin-top: 70%;
+  box-shadow: 15px 15px 15px black;
+}
+.main3-room1-text:hover{
+  background-color: rgb(5, 5, 64);
+  color: #fff;
+}
+.main3-room1-text h1{
+padding-left: 10px;
+padding-top: 10px;
+}
+.main3-room1-text p{
+  color: rgb(78, 74, 74);
+  font-size: 18px;
+  padding-left: 10px;
+padding-top: 5px;
+}
+.main3-room1-text a{
+  color: rgb(248, 164, 8);
+  font-weight: 900;
+  font-size: 17px;
+  padding-left: 75%;
+  position: relative;
+  bottom: 47%;
+}
+.main3-room2{
+    height: 65%;
+    width: 30%;
+    /* background-color: rgb(26, 255, 0); */
+    background-image: url(room3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+.main3-room2-text{
+  height: 28%;
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 5%;
+  margin-top: 70%;
+  box-shadow: 15px 15px 15px black;
+}
+.main3-room2-text:hover{
+  background-color: rgb(5, 5, 64);
+  color: #fff;
+}
+.main3-room2-text h1{
+  padding-left: 10px;
+  padding-top: 10px;
+  }
+  .main3-room2-text p{
+    color: rgb(78, 74, 74);
+    font-size: 18px;
+    padding-left: 10px;
+  padding-top: 5px;
+  }
+.main3-room2-text a{
+  color: rgb(248, 164, 8);
+  font-weight: 900;
+  font-size: 17px;
+  padding-left: 75%;
+  position: relative;
+  bottom: 47%;
+}
+.main3-room3{
+  height: 65%;
+  width: 30%;
+  /* background-color: red; */
+  background-image: url(room4.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  box-shadow: 10px 10px 10px black;
+}
+.main3-room3-text{
+  height: 28%;
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 5%;
+  margin-top: 70%;
+  box-shadow: 15px 15px 15px black;
+}
+.main3-room3-text:hover{
+  background-color: rgb(5, 5, 64);
+  color: #fff;
+}
+.main3-room3-text h1{
+  padding-left: 10px;
+  padding-top: 10px;
+  }
+  .main3-room3-text p{
+    color: rgb(78, 74, 74);
+    font-size: 18px;
+    padding-left: 10px;
+  padding-top: 5px;
+  }
+.main3-room3-text a{
+  color: rgb(248, 164, 8);
+  font-weight: 900;
+  font-size: 17px;
+  padding-left: 75%;
+  position: relative;
+  bottom: 42%;
+}
+/* .................................. 4th page ............................. */
+.main4{
+ height: 100%; 
+ width: 100%;
+ /* background-color: red; */
+ display: flex;
+}
+.main4-center{
+  height: 65%;
+  width: 100%;
+  background-color: orange;
+  position: relative;
+  top: 23%;
+}
+.main4-center-text{
+  height: 100%;
+  width: 70%;
+  background-color: rgb(1, 1, 36);
+}
+.main4-center-text a{
+  color: orange;
+  margin-left: 10%;
+ position: relative;
+ top: 15%;
+}
+.main4-center-text h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 10%;
+ position: relative;
+ top: 18%;
+}
+.main4-center-text p{
+  color: white;
+  font-size: 19px;
+  margin-left: 10%;
+ position: relative;
+ top: 20%;
+ opacity: 0.5;
+}
+.main4-center-text button{
+  background-color: orange;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  box-shadow: 10px 10px 10px black;
+  color: white;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.main4-center-text button:hover{
+  background-color: black;
+  color: red;
+}
+.main4-video{
+  height: 70%;
+  width: 40%;
+  /* background-color: rgb(0, 255, 4); */
+  /* margin-bottom: 50%; */
+  position: relative;
+  bottom: 86%;
+  left: 55%;
+  box-shadow: 15px 15px 15px black;
+}
+.main4-video>video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* ........................... 5th page .................................. */
+.main5{
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+}
+.main5-top{
+  height: 15%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.main5-top p{
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+}
+.main5-top h1{
+ font-size: 50px; 
+ font-weight: 900;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ top: 25%;
+}
+.main5-bottom1{
+  height: 35%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main5-bottom1-text1{
+  height: 90%;
+  width: 30%;
+  background-color: whitesmoke;
+  box-shadow: 15px 15px 15px black;
+}
+.main5-bottom1-text1:hover{
+  background-color: rgb(4, 10, 83);
+  color: white;
+}
+.main5-bottom1-text1 i{
+color: rgb(250, 189, 6);
+font-size: 40px;
+font-weight: 900;
+position: relative;
+left: 15px;
+top: 31px;
+}
+.main5-bottom1-text1 h2{
+  font-size: 28px;
+  font-weight: 900;
+position: relative;
+left: 15px;
+top: 33px;
+}
+.main5-bottom1-text1 p{
+  opacity: 0.5;
+  font-size: 19px;
+  position: relative;
+  left: 15px;
+  top: 36px;
+}
+.main5-bottom1-text2{
+  height: 90%;
+  width: 30%;
+  background-color: whitesmoke;
+  box-shadow: 15px 15px 15px black;
+}
+.main5-bottom1-text2:hover{
+  background-color: rgb(4, 10, 83);
+  color: white;
+}
+.main5-bottom1-text2 i{
+  color: rgb(250, 189, 6);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 31px;
+  }
+  .main5-bottom1-text2 h2{
+    font-size: 28px;
+    font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 33px;
+  }
+  .main5-bottom1-text2 p{
+    opacity: 0.5;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    top: 36px;
+  }
+.main5-bottom1-text3{
+  height: 90%;
+  width: 30%;
+  background-color: whitesmoke;
+  box-shadow: 15px 15px 15px black;
+}
+.main5-bottom1-text3:hover{
+  background-color: rgb(4, 10, 83);
+  color: white;
+}
+.main5-bottom1-text3 i{
+  color: rgb(250, 189, 6);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 31px;
+  }
+  .main5-bottom1-text3 h2{
+    font-size: 28px;
+    font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 33px;
+  }
+  .main5-bottom1-text3 p{
+    opacity: 0.5;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    top: 36px;
+  }
+.main5-bottom2{
+  height: 35%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main5-bottom2-text1{
+  height: 90%;
+  width: 30%;
+  background-color: whitesmoke;
+  /* box-shadow: 15px 15px 15px black; */
+  box-shadow: 8px 8px 8px black;
+}
+.main5-bottom2-text1:hover{
+  background-color: rgb(4, 10, 83);
+  color: white;
+}
+.main5-bottom2-text1 i{
+  color: rgb(250, 189, 6);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 31px;
+  }
+  .main5-bottom2-text1 h2{
+    font-size: 28px;
+    font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 33px;
+  }
+  .main5-bottom2-text1 p{
+    opacity: 0.5;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    top: 36px;
+  }
+.main5-bottom2-text2{
+  height: 90%;
+  width: 30%;
+  background-color: whitesmoke;
+  /* box-shadow: 15px 15px 15px black; */
+  box-shadow: 8px 8px 8px black;
+}
+.main5-bottom2-text2:hover{
+  background-color: rgb(4, 10, 83);
+  color: white;
+}
+.main5-bottom2-text2 i{
+  color: rgb(250, 189, 6);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 31px;
+  }
+  .main5-bottom2-text2 h2{
+    font-size: 28px;
+    font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 33px;
+  }
+  .main5-bottom2-text2 p{
+    opacity: 0.5;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    top: 36px;
+  }
+.main5-bottom2-text3{
+  height: 90%;
+  width: 30%;
+  background-color: whitesmoke;
+  box-shadow: 8px 8px 8px black;
+}
+.main5-bottom2-text3:hover{
+  background-color: rgb(4, 10, 83);
+  color: white;
+}
+.main5-bottom2-text3 i{
+  color: rgb(250, 189, 6);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 31px;
+  }
+  .main5-bottom2-text3 h2{
+    font-size: 28px;
+    font-weight: 900;
+  position: relative;
+  left: 15px;
+  top: 33px;
+  }
+  .main5-bottom2-text3 p{
+    opacity: 0.5;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    top: 36px;
+  }
+  /* ................................ 6th page .......................................... */
+  .main6{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .main6-top{
+    height: 15%;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px rgb(113, 109, 109);
+  }
+  .main6-top h1{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 80px;
+    top: 45px;
+  }
+  .main6-bottom1-text{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .main6-bottom1-text1{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(12, 223, 54); */
+    display: flex;
+  }
+  .main6-bottom1-text1-photo1{
+    height: 100%;
+    width: 23%;
+    /* background-color: red; */
+    background-image: url(f1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px black;
+    transition: 1s;
+  }
+  .main6-bottom1-text1-photo2{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px black;
+    transition: 1.5s;
+  }
+  .main6-bottom1-text1-photo2:hover{
+    background-color: rgb(8, 8, 79);
+    color: white;
+  }
+  .main6-bottom1-text1-photo2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .main6-bottom1-text1-photo2 p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  .main6-bottom1-text2{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(19, 1, 218); */
+    display: flex;
+  }
+  .main6-bottom1-text2-photo1{
+    height: 100%;
+    width: 23%;
+    /* background-color: red; */
+    background-image: url(f9.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px black;
+  }
+  .main6-bottom1-text2-photo2{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px black;
+    transition: 1.5s;
+  }
+  .main6-bottom1-text2-photo2:hover{
+    background-color: rgb(8, 8, 79);
+    color: white;
+  }
+  .main6-bottom1-text2-photo2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .main6-bottom1-text2-photo2 p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  .main6-bottom2-text{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .main6-bottom2-text1{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(12, 223, 54); */
+    display: flex;
+  }
+  .main6-bottom2-text1-photo1{
+    height: 100%;
+    width: 23%;
+    /* background-color: red; */
+    background-image: url(f3.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px black;
+  }
+  .main6-bottom2-text1-photo2{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px black;
+   transition: 1.5s;
+  }
+  .main6-bottom2-text1-photo2:hover{
+    background-color: rgb(8, 8, 79);
+    color: white;
+  }
+  .main6-bottom2-text1-photo2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .main6-bottom2-text1-photo2 p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  .main6-bottom2-text2{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(19, 1, 218); */
+    display: flex;
+  }
+  .main6-bottom2-text2-photo1{
+    height: 100%;
+    width: 23%;
+    /* background-color: red; */
+    background-image: url(f4.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px black;
+  }
+  .main6-bottom2-text2-photo2{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px black;
+    transition: 1.5s;
+  }
+  .main6-bottom2-text2-photo2:hover{
+    background-color: rgb(8, 8, 79);
+    color: white;
+  }
+  .main6-bottom2-text2-photo2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .main6-bottom2-text2-photo2 p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  .main6-bottom3-text{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .main6-bottom3-text1{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(12, 223, 54); */
+    display: flex;
+  }
+  .main6-bottom3-text1-photo1{
+    height: 100%;
+    width: 23%;
+    /* background-color: red; */
+    background-image: url(f5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px black;
+  }
+  .main6-bottom3-text1-photo2{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px black;
+    transition: 1.5s;
+  }
+  .main6-bottom3-text1-photo2:hover{
+    background-color: rgb(8, 8, 79);
+    color: white;
+  }
+  .main6-bottom3-text1-photo2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .main6-bottom3-text1-photo2 p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  .main6-bottom3-text2{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(19, 1, 218); */
+    display: flex;
+  }
+  .main6-bottom3-text2-photo1{
+    height: 100%;
+    width: 23%;
+    /* background-color: red; */
+    background-image: url(f6.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px black;
+  }
+  .main6-bottom3-text2-photo2{
+    height: 100%;
+    width: 77%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px black;
+    transition: 1.5s;
+  }
+  .main6-bottom3-text2-photo2:hover{
+    background-color: rgb(8, 8, 79);
+    color: white;
+  }
+  .main6-bottom3-text2-photo2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .main6-bottom3-text2-photo2 p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  /* .................................. 7th page ............................................. */
+  .main7{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .main7-photo{
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main7-photo1{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(19, 242, 7); */
+    margin: 10px;
+    background-image: url(f7.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    border: 5px solid black;
+    transition: 1s;
+  }
+  .main7-photo1:hover{
+    box-shadow: 8px 16px 32px black;
+  }
+  .main7-photo2{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    margin: 10px;
+    background-image: url(f8.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    border: 5px solid black;
+    transition: 1s;
+  }
+  .main7-photo2:hover{
+    box-shadow: 8px 16px 32px black;
+  }
+  .main7-photo3{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(91, 14, 223); */
+    margin: 10px;
+    background-image: url(f2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    border: 5px solid black;
+    transition: 1s;
+  }
+  .main7-photo3:hover{
+    box-shadow: 8px 16px 32px black;
+  }
+  .main7-text{
+    height: 40%;
+    width: 90%;
+    background-color: rgb(12, 12, 49);
+   margin-top: 45px;
+   margin-left: 75px;
+   display: flex;
+   justify-content: space-evenly;
+  }
+  .main7-text1{
+    height: 90%;
+    width: 20%;
+    background-color:  rgb(12, 12, 49);
+    box-shadow: 25px 25px 25px black;
+    margin-top: 15px;
+    transition: 1s;
+  }
+  .main7-text1:hover{ 
+   background-color: red;
+    border-radius: 50%;
+  }
+  .main7-text1 i{
+    font-size: 40px;
+    font-weight: 900;
+    color: orange;
+    position: relative;
+    left: 100px;
+    top: 60px;
+  }
+  .main7-text1 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+    top: 60px;
+  }
+  .main7-text1 p{
+   opacity: 0.5;
+   color: white;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+  }
+  .main7-text2{
+    height: 90%;
+    width: 20%;
+    background-color:  rgb(12, 12, 49);
+    box-shadow: 25px 25px 25px black;
+    margin-top: 15px;
+    transition: 1s;
+  }
+  .main7-text2:hover{
+    background-color: red;
+    border-radius: 50%;
+  }
+  .main7-text2 i{
+    font-size: 40px;
+    font-weight: 900;
+    color: orange;
+    position: relative;
+    left: 110px;
+    top: 60px;
+  }
+  .main7-text2 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+    top: 60px;
+  }
+  .main7-text2 p{
+   opacity: 0.5;
+   color: white;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+  }
+  .main7-text3{
+    height: 90%;
+    width: 20%;
+    background-color:  rgb(12, 12, 49);
+    box-shadow: 25px 25px 25px black;
+    margin-top: 15px;
+    transition: 1s;
+  }
+  .main7-text3:hover{
+    background-color: red;
+    border-radius: 50%;
+  }
+  .main7-text3 i{
+    font-size: 40px;
+    font-weight: 900;
+    color: orange;
+    position: relative;
+    left: 100px;
+    top: 60px;
+  }
+  .main7-text3 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+    top: 60px;
+  }
+  .main7-text3 p{
+   opacity: 0.5;
+   color: white;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+  }
+  .main7-text4{
+    height: 90%;
+    width: 20%;
+    background-color:  rgb(14, 14, 45);
+    box-shadow: 25px 25px 25px black;
+    margin-top: 15px;
+    transition: 1s;
+  }
+  .main7-text4:hover{
+    background-color: red;
+    border-radius: 50%;
+  }
+  .main7-text4 i{
+    font-size: 40px;
+    font-weight: 900;
+    color: orange;
+    position: relative;
+    left: 115px;
+    top: 60px;
+  }
+  .main7-text4 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+    top: 60px;
+  }
+  .main7-text4 p{
+   color: white;
+   opacity: 0.5;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+  }
+  /* ................................... 8th page ................................ */
+  .main8{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .main8-top{
+    height: 20%;
+    width: 100%; 
+     background-color: whitesmoke;
+     box-shadow: 15px 15px 15px rgb(77, 76, 76);
+  }
+  .main8-top p{
+    opacity: 0.7;
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 30px;
+  }
+  .main8-top h1{
+  font-weight: 900;
+    font-size: 70px;
+    position: relative;
+    left: 50px;
+    top: 25px;
+  }
+  .main8-bottom{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main8-bottom1{
+    height: 90%;
+    width: 32%;
+    background-color: aliceblue;
+    margin-top: 20px;
+  }
+  .main8-bottom1-photo{
+    height: 55%;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(room1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 15px 15px rgb(77, 76, 76);
+  }
+  .main8-bottom1-text{
+    height: 45%;
+    width: 100%;
+   background-color: whitesmoke;
+   box-shadow: 15px 15px 15px rgb(77, 76, 76);
+  }
+  .main8-bottom1-text:hover{
+    background-color: rgb(7, 2, 50);
+    color: #fff;
+  }
+  .main8-bottom1-text a{
+    opacity: 0.7;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+  }
+  .main8-bottom1-text p{
+    opacity: 0.7;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  .main8-bottom1-text h2{
+  font-weight: 900;
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  .main8-bottom2{
+    height: 90%;
+    width: 32%;
+    background-color: rgb(10, 136, 246);
+    margin-top: 20px;
+  }
+  .main8-bottom2-photo{
+    height: 55%;
+    width: 100%;
+    /* background-color: red; */
+    box-shadow: 15px 15px 15px rgb(77, 76, 76);
+    background-image: url(room2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .main8-bottom2-text{
+    height: 45%;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px rgb(77, 76, 76);
+  }
+  .main8-bottom2-text:hover{
+    background-color: rgb(7, 2, 50);
+    color: #fff;
+  }
+  .main8-bottom2-text a{
+    opacity: 0.7;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+  }
+  .main8-bottom2-text p{
+    opacity: 0.7;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  .main8-bottom2-text h2{
+  font-weight: 900;
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  .main8-bottom3{
+    height: 90%;
+    width: 32%;
+    background-color: aliceblue;
+    margin-top: 20px;
+  }
+  .main8-bottom3-photo{
+    height: 55%;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(room3.jpg);
+    box-shadow: 15px 15px 15px rgb(77, 76, 76);
+    background-size: cover;
+    background-position: center;
+  }
+  .main8-bottom3-text{
+    height: 45%;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px rgb(77, 76, 76);
+  }
+  .main8-bottom3-text:hover{
+    background-color: rgb(7, 2, 50);
+    color: #fff;
+  }
+  .main8-bottom3-text a{
+    opacity: 0.7;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+  }
+  .main8-bottom3-text p{
+    opacity: 0.7;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  .main8-bottom3-text h2{
+  font-weight: 900;
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  /* ............ page9 .................. */
+  .main9{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 3, 43);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main9-text1{
+    height: 60%;
+    width: 35%;
+    /* background-color: rgb(165, 165, 169); */
+    margin-top: 15px;
+  }
+  .main9-text2{
+    height: 60%;
+    width: 30%;
+    /* background-color: rgb(228, 172, 16); */
+    margin-top: 15px;
+  }
+  .main9-text3{
+    height: 60%;
+    width: 30%;
+    /* background-color: rgb(247, 90, 17); */
+    margin-top: 15px;
+  }
+  .main9-text1 h1{
+    color: white;
+    font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+ .main9-text1 p{
+  color: white;
+  opacity: 0.5;
+  font-weight: 900;
+  position: relative;
+  left: 50px;
+  top: 60px;
+  line-height: 20px;
+ }
+ .main9-text1 a{
+  color: black;
+  height: 20px;
+  width: 20px;
+  background-color: whitesmoke;
+ border-radius: 50%;
+ font-size: 35px;
+ font-weight: 900;
+ margin: 10px;
+ position: relative;
+ left: 40px;
+ top: 90px;
+ box-shadow: 8px 16px 32px black;
+ }
+ .main9-text2 h1{
+  font-size: 35px;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  left: 40px;
+  top: 40px;
+ }
+ .main9-text2 p{
+  color: #fff;
+  opacity: 0.5;
+  font-size: 20px;
+  margin-top: 15px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+ }
+  .main9-text3 h1{
+    font-size: 35px;
+    font-weight: 900;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+  .main9-text3 a{
+    font-size: 30px;
+    font-weight: 900;
+    color: yellow;
+    position: relative;
+    top: 80px;
+  }
+  .main9-text3 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+  .main9-text3 h3{
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+  .main10-bottom{
+    height: 100%;
+    width: 100%;
+    background-image: url(red3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .main10-bottom h1{
+    font-size: 105px;
+    font-weight: 900;
+  font-family: sans-serif;
+    color: red;
+    position: relative;
+    left: 45%;
+    top: 20%;
+    text-shadow: 8px 16px 32px black;
+  }
+  
